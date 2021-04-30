@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.lyz.lyzmvvmsample.ui.fragment.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/projectFragment"
+        android:name="com.lyz.lyzmvvmsample.ui.fragment.ProjectFragment"
+        android:label="项目"
+        tools:layout="@layout/fragment_project" />
+
+    <fragment
+        android:id="@+id/squareFragment"
+        android:name="com.lyz.lyzmvvmsample.ui.fragment.SquareFragment"
+        android:label="广场"
+        tools:layout="@layout/fragment_square" />
+
+    <fragment
+        android:id="@+id/wechatFragment"
+        android:name="com.lyz.lyzmvvmsample.ui.fragment.WechatFragment"
+        android:label="公众号"
+        tools:layout="@layout/fragment_wechat" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.lyz.lyzmvvmsample.ui.fragment.SecondFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/fragment_second" />
+
+
+</navigation>

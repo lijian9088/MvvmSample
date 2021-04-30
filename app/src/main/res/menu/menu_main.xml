@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/menu_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/projectFragment"
+        android:icon="@drawable/menu_project"
+        android:title="Project" />
+    <item
+        android:id="@+id/squareFragment"
+        android:icon="@drawable/menu_tree"
+        android:title="Square" />
+    <item
+        android:id="@+id/wechatFragment"
+        android:icon="@drawable/menu_public"
+        android:title="Wechat" />
+    <item
+        android:id="@+id/meFragment"
+        android:icon="@drawable/menu_me"
+        android:title="Me" />
+</menu>
